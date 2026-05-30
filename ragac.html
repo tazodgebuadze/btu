@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sneakers Shop</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<header>
+<div class="container">
+
+<div class="left-nav">
+<button id="menuBtn" class="menu-btn">☰</button>
+
+<h2>Sneakers</h2>
+
+<nav>
+<ul>
+<li><a href="#">Collections</a></li>
+<li><a href="#">Men</a></li>
+<li><a href="#">Women</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</div>
+
+<div class="right-nav">
+<div class="cart-wrapper">
+
+<div class="cart-icon" id="cartBtn">
+🛒
+<span class="cart-badge">0</span>
+</div>
+
+<div class="cart-dropdown" id="cartDropdown">
+<h4>Cart</h4>
+
+<div class="cart-content empty">
+Your cart is empty.
+</div>
+</div>
+
+</div>
+
+<img
+class="avatar"
+src="https://i.pravatar.cc/100"
+alt=""
+>
+
+</div>
+
+</div>
+</header>
+
+<aside class="mobile-menu">
+<button id="closeMenu">✕</button>
+
+<ul>
+<li><a href="#">Collections</a></li>
+<li><a href="#">Men</a></li>
+<li><a href="#">Women</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</aside>
+
+<main class="container product">
+
+<div class="gallery">
+
+<div class="main-image-wrapper">
+
+<button class="arrow prev">❮</button>
+
+<img
+id="mainImage"
+src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=900"
+alt=""
+>
+
+<button class="arrow next">❯</button>
+
+</div>
+
+<div class="thumbs">
+
+<img class="thumb active"
+src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=900">
+
+<img class="thumb"
+src="https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=900">
+
+<img class="thumb"
+src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=900">
+
+<img class="thumb"
+src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=900">
+
+</div>
+
+</div>
+
+<div class="info">
+
+<h5>SNEAKER COMPANY</h5>
+
+<h1>Fall Limited Edition Sneakers</h1>
+
+<p>
+These low-profile sneakers are your perfect casual wear companion.
+Featuring a durable rubber outer sole, they'll withstand everything.
+</p>
+
+<div class="price-row">
+<div>
+<span class="price">$125.00</span>
+<span class="discount">50%</span>
+</div>
+
+<del>$250.00</del>
+</div>
+
+<div class="actions">
+
+<div class="counter">
+<button id="minus">-</button>
+<span id="quantity">0</span>
+<button id="plus">+</button>
+</div>
+
+<button id="addCart" class="add-cart">
+Add to cart
+</button>
+
+</div>
+
+</div>
+
+</main>
+
+<div class="lightbox" id="lightbox">
+
+<div class="lightbox-content">
+
+<button id="closeLightbox">✕</button>
+
+<img id="lightboxImage" src="" alt="">
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
